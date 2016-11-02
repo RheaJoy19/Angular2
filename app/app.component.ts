@@ -97,6 +97,8 @@ export class AppComponent {
         this.selectedHero = hero;
     }
 
+    // merge this change to master please.
+
 }
 
 
