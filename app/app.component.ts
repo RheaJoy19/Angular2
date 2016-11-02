@@ -98,6 +98,7 @@ export class AppComponent {
     }
 
     // merge this change to master please.
+    // Sample
 
 }
 
