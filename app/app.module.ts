@@ -12,7 +12,10 @@ import { HeroDetailComponent } from './hero-detail.component';
         BrowserModule,
         FormsModule
     ],
-    declarations: [AppComponent],
+    declarations: [
+        AppComponent,
+        HeroDetailComponent
+    ],
     bootstrap: [AppComponent]
 })
 

@@ -34,6 +34,7 @@ const HEROES: Hero[] = [
         <span class="badge">{{hero.id}}</span> {{hero.name}}
     </li>
     </ul>
+    <my-hero-detail [hero]="selectedHero"></my-hero-detail>
     `,
     styles: [`
     .selected {
@@ -90,10 +91,10 @@ const HEROES: Hero[] = [
 export class AppComponent {
     title = 'Tour of Heroes';
     selectedHero: Hero;
-    
+
     heroes = HEROES;
 
-    onSelect(hero: Hero): void{
+    onSelect(hero: Hero): void {
         this.selectedHero = hero;
     }
 
